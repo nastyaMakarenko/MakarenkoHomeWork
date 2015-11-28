@@ -6,6 +6,7 @@ public class TightRopeWalker extends Artist {
     final private int percentsForRisk = 25;
 
     public TightRopeWalker(String name, int age, String phone, int numberOfPerformances){
+        
         super(name, age, phone, numberOfPerformances);
     }
 

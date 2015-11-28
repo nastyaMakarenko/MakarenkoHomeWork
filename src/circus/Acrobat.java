@@ -6,10 +6,6 @@ public class Acrobat extends Artist{
     private boolean drunkFactor;
     private boolean jobQuality;
 
-    public Acrobat(){
-
-    }
-
     @Override
     public String toString() {
 
@@ -26,26 +22,12 @@ public class Acrobat extends Artist{
         this.jobQuality = jobQuality;
     }
 
-    public Acrobat (boolean drunkFactor, boolean jobQuality){
-        this.drunkFactor = drunkFactor;
-        this.jobQuality = jobQuality;
-    }
-
     public boolean isJobQuality() {
         return jobQuality;
     }
 
-    public void setJobQuality(boolean jobQuality) {
-        this.jobQuality = jobQuality;
-    }
-
     public boolean isDrunkFactor() {
         return drunkFactor;
-    }
-
-    public void setDrunkFactor(boolean drunkFactor) {
-
-        this.drunkFactor = drunkFactor;
     }
 
     public void perform(Artist acrobat){
@@ -53,9 +35,4 @@ public class Acrobat extends Artist{
         System.out.println("Acrobat is jumping");
         increaseNumberOfShows(acrobat);
     }
-
-
-
-
-
 }

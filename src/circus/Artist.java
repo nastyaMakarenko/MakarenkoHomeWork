@@ -19,20 +19,14 @@ abstract public class Artist extends Human {
 
     }
 
-    public Artist(){
-
-    }
-
     public int getNumberOfPerformances() {
+
         return numberOfPerformances;
     }
 
     public double getSalary() {
-        return standartSalary;
-    }
 
-    public void setShowsCounter(int numberOfPerformances) {
-        this.numberOfPerformances = numberOfPerformances;
+        return standartSalary;
     }
 
     abstract public void perform(Artist artist);

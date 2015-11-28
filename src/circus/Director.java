@@ -7,10 +7,12 @@ public class Director extends Human{
     private double budget = 10000.00;
 
     public void setBudget(double budget) {
+
         this.budget = budget;
     }
 
     public double getBudget() {
+
         return budget;
     }
 
