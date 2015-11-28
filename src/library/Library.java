@@ -1,8 +1,11 @@
+package library;
+
+import library.Book;
 
 public class Library {
 
-    int booksSize;
-    Book[] freeBooks = new Book[10];
+    public int booksSize;
+    public Book[] freeBooks = new Book[10];
 
     public void addBook (String name, String author, int year){
 

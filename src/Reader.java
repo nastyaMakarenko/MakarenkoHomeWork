@@ -1,8 +1,8 @@
-
+import library.Book;
 
 public class Reader extends Human{
 
-    Book[] books = new Book[3];
+    public Book[] books = new Book[3];
     //Human reader = new Reader();
 
     public Reader(){

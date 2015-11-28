@@ -1,10 +1,13 @@
+package library;
 
-public class Librarian {
+import library.Book;
 
-    int readersSize;
-    Reader[] readers = new Reader[10];
-    Reader[] blackList = new Reader[10];
-    Library lib = new Library();
+public class Librarian extends Human {
+
+    public int readersSize;
+    public Reader[] readers = new Reader[10];
+    public Reader[] blackList = new Reader[10];
+    public Library lib = new Library();
 
     public void addReader (Reader reader, Reader[] arr){
 
@@ -101,9 +104,8 @@ public class Librarian {
 
         for (int i = 0; i < lib.freeBooks.length; i++) {
             if (lib.freeBooks[i].equals(book)){
-                lib.freeBooks[i] = null;
+                lib.freeBooks = null;
             }
-
         }
 
         return book;

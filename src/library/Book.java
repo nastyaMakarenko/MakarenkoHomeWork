@@ -1,9 +1,10 @@
+package library;
 
 public class Book {
 
-    String name;
-    String author;
-    int year;
+    public String name;
+    public String author;
+    public int year;
 
     public Book (String name, String author, int year){
 

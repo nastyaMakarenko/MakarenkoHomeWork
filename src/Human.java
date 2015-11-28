@@ -1,9 +1,9 @@
 
 public class Human {
 
-    String name;
-    int age;
-    String phone;
+    public String name;
+    public int age;
+    public String phone;
 
     public Human (String name, int age, String phone){
 
