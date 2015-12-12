@@ -8,7 +8,7 @@ public class BinarySearch <T extends Comparable<T>> implements IBinarySearch<T> 
 
     private T[] arr;
 
-    public BinarySearch (T[] usersArray) {
+    public BinarySearch (T[] usersArray)  {
         if (usersArray.length == 0){
             throw new ArrayEmptyException();
         }

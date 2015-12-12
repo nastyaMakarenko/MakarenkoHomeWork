@@ -7,7 +7,8 @@ public class TestBinarySearch {
         Integer[] intArr = {0,5,2,8,1};
 
         BinarySearchController<Integer> controller = new BinarySearchController<>();
+        Integer elemForSearch = 5;
 
-        controller.doBinarySearch(intArr,5);
+        controller.doBinarySearch(intArr,elemForSearch);
     }
 }

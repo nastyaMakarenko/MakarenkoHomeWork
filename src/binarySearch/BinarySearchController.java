@@ -1,8 +1,6 @@
 package binarySearch;
 
 
-import java.util.ArrayList;
-
 public class BinarySearchController<T extends Comparable<T>> {
 
 
