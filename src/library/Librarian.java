@@ -1,8 +1,11 @@
 package library;
 
+
 import library.Book;
 
-public class Librarian extends Human {
+import java.io.Reader;
+
+/*public class Librarian extends Human {
 
     public int readersSize;
     public Reader[] readers = new Reader[10];
@@ -110,4 +113,6 @@ public class Librarian extends Human {
 
         return book;
     }
-}
+}*/
+
+
