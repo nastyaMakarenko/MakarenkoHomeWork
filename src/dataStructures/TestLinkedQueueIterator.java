@@ -12,7 +12,7 @@ public class TestLinkedQueueIterator {
         linkedQueue.enqueue("Nastia");
         linkedQueue.enqueue("Tania");
         linkedQueue.enqueue("Bogdan");
-        linkedQueue.enqueue("Jenia");
+        linkedQueue.enqueue("Jenia ");
 
         LinkedQueueIterator<String> linkedQueueIterator = linkedQueue.iterator();
 
